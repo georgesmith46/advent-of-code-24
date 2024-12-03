@@ -2,6 +2,7 @@ use std::env;
 
 mod day01;
 mod day02;
+mod day03;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -16,6 +17,10 @@ fn main() {
         2 => {
             day02::part_one();
             day02::part_two();
+        }
+        3 => {
+            day03::part_one();
+            day03::part_two();
         }
         _ => println!("Day not implemented yet"),
     }
