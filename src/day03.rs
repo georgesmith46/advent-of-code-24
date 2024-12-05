@@ -1,6 +1,6 @@
 use std::{iter::Peekable, str::Chars};
 
-const INPUT: &str = include_str!("day03.txt");
+const INPUT: &str = include_str!("input/day03.txt");
 
 struct InputIterator(Peekable<Chars<'static>>);
 

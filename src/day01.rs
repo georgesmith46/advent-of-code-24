@@ -1,4 +1,4 @@
-const INPUT: &str = include_str!("day01.txt");
+const INPUT: &str = include_str!("input/day01.txt");
 
 fn get_vecs() -> (Vec<u32>, Vec<u32>) {
     INPUT

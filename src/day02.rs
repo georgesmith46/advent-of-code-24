@@ -1,4 +1,4 @@
-const INPUT: &str = include_str!("day02.txt");
+const INPUT: &str = include_str!("input/day02.txt");
 
 #[derive(Copy, Clone)]
 enum Pattern {
